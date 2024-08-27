@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .gallery{
+            display: grid;
+            grid-template-columns: repeat(3,240px);
+            grid-template-rows: repeat(3,240px);
+            grid-gap: 20px;
+        }
+        .gallery img{
+            width: 100%;
+            height: 100%;
+            border-radius: 20px;
+            border-style: solid;
+        }
+        .gallery img:hover{
+            transform: scale(1.1);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>GALLERY</h1>
+        <div class="gallery">
+            <div><img src="download1.jpg"></div>
+            <div><img src="download2.jpg"></div>            
+            <div><img src="image/download.jfif">i</div>
+            <div><img src="image/img2.jfif"></div>
+            <div><img src="image/img3.jfif"></div>
+            <div><img src="image/img4..jfif"></div>
+           
+        </div>
+
+    </div>
+    
+</body>
+</html>
